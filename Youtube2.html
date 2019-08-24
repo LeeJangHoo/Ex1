@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="fontello-embedded.css">
+    <title>YouTube</title>
+    <style media="screen">
+      body{
+        margin : 0px;
+      }
+      .dot{
+        width:30px;
+        height: 30px;
+        line-height: 30px;
+        background-color: #271D84;
+        color: white;
+        text-align: center;
+        display: inline-block;
+        font-size: 10px;
+      }
+      .dot {
+      width: 25px;
+      height: 25px;
+      line-height: 25px;
+      border-radius: 12.5px; /* 이미지 반크기만큼 반경을 잡기*/
+      text-align: center;
+      }
+      a{
+        text-decoration: none;
+        color:black;
+        display: block;
+      }
+      #Left-Menu{
+        border-right: 1px gray solid;
+        width: 230px;
+      }
+      #Top-Menu{
+        border-bottom: 1px gray solid;
+        padding: 10px;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: auto 2fr;
+      }
+      .AContents{
+        position: relative;
+        bottom: 15px;
+      }
+      .A-Img{
+        position: relative;
+        top : 12px;
+        left: 20px;
+      }
+      .AContents ,.A-Img{
+        display: inline-block;
+      }
+      .A-Img img{
+        display: inline-block;
+        width:200px;
+        height:200px;
+      }
+      #Contents{
+        padding-top: 20px;
+        padding-left: 50px;
+      }
+      #Block{
+        display: block;
+      }
+      .dot2{
+        width:77px;
+        height: 77px;
+        line-height: 77px;
+        background-color: #271D84;
+        color: white;
+        text-align: center;
+        display: inline-block;
+        text-align: center;
+        font-size: 30px;
+      }
+      h2{
+        color: #555;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 16px;
+      }
+      .BContents2 a{
+        display: inline-block;
+        color:blue;
+      }
+      .details{
+        display: inline-block;
+        position: relative;
+        bottom: 20px;
+        font-size :14px;
+      }
+      .Left-details{
+        position: relative;
+        bottom: 20px;
+        margin-left: 200px;
+        margin-bottom: 20px;
+      }
+      .details a{
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Top-Menu">
+      <i class="icon-menu"></i>
+      <img src="Yt_img.png" alt="">
+      <span style="color:gray; position: relative; font-size: 13px;">KR</span>
+      <input type="text"placeholder=" 검색" style="height:25px; width: 40%;">
+      <button type="button" name="button"></button>
+      <i class="icon-keyboard"></i>
+      <i class="icon-search"></i>
+      <i class="icon-videocam"></i>
+      <i class="icon-bell"></i>
+      <div class="dot">디</div>
+    </div>
+    <div id="Block">
+      <div id="grid">
+        <div id="Left-Menu">
+          <div>설정</div>
+          <a href="#">계정</a>
+          <a href="#">알림</a>
+          <a href="#">재생 및 실적</a>
+          <a href="#">개인정보 보호</a>
+          <a href="#">연결된 계정</a>
+          <a href="#">TV로 시청하기</a>
+          <a href="#">결제 & 지불</a>
+          <a href="#">고급 설정</a>
+        </div>
+        <div id="Contents">
+          <div class="AContents">
+            <p>계정</p>
+            <p style="font-size: 25px;">YouTube에서 내 모습이 보이고 내가 보는 방식을 선택<br>하세요<p>
+            <p style="color: gray; font-size: 15px;">로그인한 계정 who178522@gmail.com</p>
+          </div>
+          <div class="A-Img">
+            <img src="https://www.youtube.com/yts/img/accounts/avatar_account_settings_2x-vfl6c6JNc.png">
+          </div>
+          <hr style=" width:150%; position: relative; right : 50px; border-top: 1px solid #e2e2e2; border-bottom : 0;">
+          <h2>내 <strong>YouTube </strong>채널</h2>
+          <div class="BContents2">
+            <span style="Font-size: 14px;">내 채널</span>
+            <div class="Left-details">
+              <div class="dot2">디</div>
+              <div class="details">
+                <span><a href="#">경디 Google 프로필에서 수정</a></span>
+                <span>who178522@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
